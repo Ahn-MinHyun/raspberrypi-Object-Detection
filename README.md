@@ -41,6 +41,7 @@ pip3 install tensorflow
 sudo apt-get install libatlas-base-dev
 ```
 
+종속 라이브러리 설치
 ```
 sudo pip3 install pillow lxml jupyter matplotlib cython
 sudo apt-get install python-tk
@@ -108,19 +109,15 @@ tar -xzvf ssdlite_mobilenet_v2_coco_2018_05_09.tar.gz
 ### 6. Object Detection 실행
 
 - Object Detection 파일 다운로드 
-
-
+```
+wget https://raw.githubusercontent.com/Ahn-MinHyun/raspberrypi-Object-Detection/main/Object_detection_picamera.py
+```
 
 - 실행 
 
 ```
 python3 Object_detection_picamera.py 
 ```
-
-
-SID TOKEN NUMBER 쓰기
-![image](https://user-images.githubusercontent.com/78781222/119777421-17cb3d00-bf01-11eb-95c9-60344daedbfd.png)
-
 
 
 
