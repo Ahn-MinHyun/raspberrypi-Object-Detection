@@ -20,6 +20,17 @@ raspverry pi camera
 sudo apt-get update
 sudo apt-get dist-upgrade
 ```
+- 카메라 설정
+
+raspberry pi Configuration 설정으로 들어가 picamera를 연결해준다.
+
+![image](https://user-images.githubusercontent.com/78781222/119777467-287bb300-bf01-11eb-98aa-740f78dfbd64.png)
+
+
+리부팅을 하면 카메라가 연결되어 있다.
+```
+sudo reboot
+```
 
 ### 2. TensorFlow 설치
 
@@ -96,8 +107,19 @@ tar -xzvf ssdlite_mobilenet_v2_coco_2018_05_09.tar.gz
 
 ### 6. Object Detection 실행
 
-picamera를 연결해준다.
+- Object Detection 파일 다운로드 
 
+
+
+- 실행 
+
+```
+python3 Object_detection_picamera.py 
+```
+
+
+SID TOKEN NUMBER 쓰기
+![image](https://user-images.githubusercontent.com/78781222/119777421-17cb3d00-bf01-11eb-95c9-60344daedbfd.png)
 
 
 
