@@ -119,5 +119,3 @@ wget https://raw.githubusercontent.com/Ahn-MinHyun/raspberrypi-Object-Detection/
 python3 Object_detection_picamera.py 
 ```
 
-
-
